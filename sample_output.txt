@@ -1,0 +1,71 @@
+MAMAEARTH GROWTH ANALYTICS
+SITUATION–COMPLICATION–RESOLUTION NARRATIVE
+=======================================================
+
+### Executive Summary: Revenue Integrity and Return Risk Analysis
+
+**Situation**
+As Mamaearth continues to scale, maintaining the integrity of our revenue reporting and understanding the drivers behind product returns are critical for sustainable growth. The Growth Analytics team recently conducted a comprehensive audit of order data to reconcile revenue figures and identify patterns in return behavior. This analysis provides a clearer view of our actual financial performance by addressing data quality discrepancies and segmenting return risks across our diverse customer base.
+
+**Complication**
+Our analysis revealed several critical areas requiring immediate attention to ensure accurate business intelligence:
+
+*   **Revenue Reconciliation:** After removing five duplicate order records, cleaned revenue totals ₹97,358.30, compared with raw revenue of ₹99,860.20. The ₹2,501.90 difference is attributable to duplicate-order reconciliation and is separate from the potential outlier issue identified in January.
+*   **Misleading Revenue Peaks:** Initial reporting suggested January 2026 was our peak month with an apparent revenue of ₹29,582.1. However, this was heavily inflated by two unusually large order quantities. Excluding these orders for sensitivity analysis reduces January revenue to ₹11,637.10. However, the orders must be investigated before deciding whether they should be excluded from official reporting. March 2026 remains the peak month based on the analysis, with revenue of ₹20,318.90.
+*   **Return Rate Disparities:** Payment methods show a stark contrast in return behavior. Cash-on-Delivery (COD) orders exhibit a return rate of 44.4%, significantly higher than UPI (18.9%) and CARD (14.7%) transactions. 
+*   **High-Risk Segments:** The data highlights a specific vulnerability within our Tier 2 city COD segment, which suffers from a 54.5% return rate. 
+*   **Hypothesis Testing:** While we analyzed the relationship between discount structures and return rates, the current data does not support the hypothesis that higher discounts reduce returns. We must emphasize that correlation does not imply causation, and further controlled testing is required before drawing operational conclusions.
+
+**Resolution**
+To improve our reporting reliability and mitigate avoidable return costs, we propose the following actions:
+
+1.  **Enhanced Data Governance:** Implement automated validation checks to flag unusually large order quantities at the point of entry. These orders should be verified by the operations team before being finalized in revenue reports to avoid the distortions seen in January.
+2.  **Deduplication Protocols:** Strengthen our order-level deduplication logic to ensure that the ₹2,501.9 reconciliation delta is minimized in future reporting cycles.
+3.  **Targeted COD Interventions:** Given the 54.5% return rate in Tier 2 COD segments, we recommend investigating the root causes—such as delivery delays or customer intent—before implementing policy changes.
+4.  **Segmented Monitoring:** Shift from aggregate reporting to monitoring return rates by payment method and city tier. This granular view will allow us to identify emerging risks in real-time.
+5.  **Evidence-Based Testing:** Before assuming that specific interventions (such as discount adjustments) will lower returns, we must conduct A/B tests to isolate the impact of these variables. We will avoid claiming causation until such testing is complete.
+
+**Business Value**
+By implementing these recommendations, Mamaearth will achieve a more accurate and reliable financial reporting framework. Addressing the root causes of the high COD return rate in Tier 2 cities will allow us to optimize our logistics and customer acquisition strategies, ultimately protecting our margins. Furthermore, by refining our data quality processes, we ensure that senior stakeholders are making growth decisions based on verified, high-fidelity data rather than inflated or duplicate figures.
+
+***
+
+**Executive Takeaway:** Our analysis confirms that while Mamaearth’s true revenue peak occurred in March 2026 (₹20,318.9), our reporting accuracy is currently hindered by duplicate orders and unverified volume outliers. By addressing the high-risk 54.5% return rate in Tier 2 COD segments and tightening our data reconciliation processes, we can significantly improve both our operational efficiency and the reliability of our growth metrics.
+
+
+
+============================================================
+VERIFIED NUMERICAL SUMMARY
+============================================================
+
+Revenue and reconciliation
+- Raw revenue: ₹99,860.20
+- Cleaned revenue: ₹97,358.30
+- Duplicate reconciliation difference: ₹2,501.90
+
+Return rates by payment method
+- COD: 44.4%
+- CARD: 14.7%
+- UPI: 18.9%
+
+Highest-risk segment
+- Payment method: COD
+- City tier: 2
+- Return rate: 54.5%
+
+Monthly revenue findings
+- January 2026 revenue including flagged outliers:
+  ₹29,582.10
+- January 2026 revenue excluding flagged outliers for
+  sensitivity analysis: ₹11,637.10
+- True peak month: 2026-03
+- Peak-month revenue: ₹20,318.90
+
+Interpretation note:
+The January sensitivity-analysis figure excludes the two flagged
+quantity outliers. These orders require investigation before any
+decision is made to exclude them from official revenue reporting.
+The duplicate reconciliation difference relates to duplicate-order
+reconciliation. These are separate data-quality issues.
+
+============================================================
